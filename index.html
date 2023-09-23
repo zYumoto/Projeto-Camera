@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Camera App</title>
+  </head>
+  <body>
+    <div>
+      <video class="camera-container" id="video" width="640" height="480" autoplay></video>
+      <br />
+      <button id="capture">Tirar foto</button>
+      <br />
+      <label for="camera-select">Selecionar câmera:</label>
+      <select id="camera-select"></select>
+      <br />
+      <label for="photo-count">Quantidade de fotos:</label>
+      <input id="photo-count" type="number" value="3" />
+      <br />
+      <label for="photo-interval">Intervalo de tempo (ms):</label>
+      <input id="photo-interval" type="number" value="1000" />
+      <br />
+      <button id="save">Salvar fotos</button>
+    </div>
+    <div id="photos"></div>
+    <script src="script.js"></script>
+<!-- Botão de alternar -->
+<button id="toggle-view">Alternar entre Mobile e Desktop</button>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.camera-container {
+    border: 2px solid blue;
+    padding: 10px; 
+  }
+/* Estilo para os botões */
+button {
+  background-color: #007bff; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 10px 20px; /* Preenchimento interno */
+  border: none; /* Sem borda */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse */
+}
+
+/* Centralizar elementos */
+div {
+  text-align: center;
+  margin: 0 auto;
+}
+/* Estilos para a visualização móvel */
+.mobile-view .camera-container {
+  width: 100%;
+}
+
+body{
+  background-color: ;
+  font-style: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
